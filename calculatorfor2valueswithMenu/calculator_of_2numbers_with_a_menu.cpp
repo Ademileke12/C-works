@@ -51,6 +51,13 @@ void operators()
 	cout<<"the subtract of "<<valA<<" and "<<valB<<" is:"<<total<<endl;
     }
 
+	if (optionval != 1 && optionval !=2 && optionval != 3 && optionval != 4)
+	{
+		cout<<"Invalid option selected"<<endl;
+		exit(1);
+		
+	}
+
 	cout<<"Type in 1 to Return to menu and 2 to exit calculator"<<endl;
 	int i;
 	cin>> i;
